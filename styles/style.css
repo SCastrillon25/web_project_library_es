@@ -92,7 +92,6 @@
   align-items: center;
   justify-content: flex-end;
   box-sizing: border-box;
-  padding-right: 80px;
   padding-top: 60px;
   padding-bottom: 80px;
 }
@@ -172,7 +171,6 @@
 .card__content {
   height: 420px;
   width: 360px;
-
   display: flex;
   flex-direction: column;
 }
@@ -201,4 +199,74 @@
   display: flex;
   height: auto;
   align-self: flex-start;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.main__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__text {
+  width: 50%;
+  padding-top: 100px;
+  padding-left: 80px;
+  padding-right: 100px;
+}
+
+.section__title {
+  font-size: large;
+  font-weight: 300;
+}
+
+.section__subtitle {
+  font-size: 42px;
+  line-height: 44px;
+  font-weight: 500;
+  padding-right: 100px;
+}
+
+.fecha-lugar {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__fecha {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 12px;
+}
+
+.icon {
+  padding-right: 12px;
+}
+
+.fecha__text {
+  font-weight: 300;
+  margin: 0;
+}
+
+
+.section__lugar {
+  display: flex;
+  flex-direction: row;
+}
+
+.lugar__text {
+  font-weight: 300;
+  margin: 0;
+}
+
+
+.section__images {
+  width: 50%;
+  background-image: url(/TripleTen/sprint3/web_project_library_es/images/cafe.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
