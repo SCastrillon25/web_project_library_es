@@ -1,4 +1,4 @@
-# http://editorconfig.org
+# <http://editorconfig.org>
 
 # Una propiedad especial que debe ser especificada en la parte superior del archivo fuera de
 # cualquier sección. Establecer a "true" para detener la búsqueda de archivos .editorconfig en el archivo actual
@@ -11,7 +11,7 @@ indent_style = space
 
 # Tamaño de la indentación en caracteres de un solo espacio
 # Valores posibles: un entero, tabulación
-indent_size = 2
+indent_size = 3
 
 # Carácter de final de línea
 # Valores posibles: If, crlf, cr
