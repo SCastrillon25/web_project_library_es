@@ -41,11 +41,12 @@
 }
 
 .nav__links {
-  margin-top: 8px;
-  display: flex;
-  list-style-type: none;
-  column-gap: 20px;
-  padding-left: 0;
+   margin: 0;
+   padding-top: 8px;
+   display: flex;
+   list-style-type: none;
+   column-gap: 20px;
+   padding-left: 0;
 }
 
 .nav__link {
@@ -64,18 +65,21 @@
 }
 
 .header__title {
-  max-width: 635px;
-  margin-top: 128px;
-  font-size: 62px;
-  line-height: 76px;
-  font-weight: 500;
+   margin: 0;
+   max-width: 635px;
+   padding-top: 128px;
+   padding-bottom: 42px;
+   font-size: 62px;
+   line-height: 76px;
+   font-weight: 500;
 }
 
 .header__description {
-  max-width: 515px;
-  margin-top: 32px;
-  font-size: 20px;
-  line-height: 30px;
+   margin: 0;
+   max-width: 515px;
+   padding-top: 32px;
+   font-size: 20px;
+   line-height: 30px;
 }
 
 .header__image {
@@ -83,6 +87,7 @@
   display: flex;
   justify-content: center;
   position:relative;
+  padding-left: 60px;
 }
 
 .header__footer {
@@ -103,22 +108,23 @@
 }
 
 .page__main {
-  margin: 0;
-  width: 100%;
-  max-width: 1600px;
-  min-width: 1100px;
-  height: 1250px;
+   position: 0;
+   margin: 0;
+   width: 100vw;
+   max-width: 1600px;
+   min-width: 1100px;
+   height: 1250px;
+   background-color: #ffffff;
+   background-image: url(/TripleTen/sprint3/web_project_library_es/images/staff_picks_background.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 .staff {
-  padding-top: 0;
-  padding-bottom: 0;
-  display: flex;
-  background-color: #ffffff;
-  background-image: url(/TripleTen/sprint3/web_project_library_es/images/staff_picks_background.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+   position: 0;
+   margin: 0;
+   display: flex;
 }
 
 .main__staff {
@@ -130,8 +136,8 @@
 .staff__title {
   margin: 0;
   color: #ffffff;
-  padding-top: 115px;
-  margin-bottom: 40px;
+  padding-top: 90px;
+  padding-bottom: 40px;
   font-size: 42px;
   font-weight: 500;
 }
@@ -144,9 +150,8 @@
 }
 
 .staff__cards {
-  margin-right: 0;
-  margin-left: 0;
-  margin-top: 68px;
+  margin: 0;
+  padding-top: 62px;
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -187,37 +192,35 @@
   font-size: medium;
   padding: 32px;
   padding-bottom: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .card__footer {
-  margin-top: auto;
-  margin-bottom: 0;
   padding: 32px;
+  margin-bottom: 0;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   color: #838383;
   font-size: small;
-  display: flex;
-  height: auto;
-  align-self: flex-start;
 }
 
 .section {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  background-color: #f2f2f2;
+   width: 1400px;
+   height: 600px;
+   display: flex;
+   background-color: #f2f2f2;
 }
 
 .main__section {
-  display: flex;
-  justify-content: space-between;
+   display: flex;
+   padding-top: 100px;
 }
 
 .section__text {
-  width: 50%;
-  padding-top: 100px;
-  padding-left: 80px;
-  padding-right: 100px;
+   width: 45%;
+   padding-left: 80px;
 }
 
 .section__title {
@@ -273,41 +276,58 @@
   padding-right: 10px;
 }
 
+.section__more-events {
+   color: #2f80ed;
+   display: block;
+   padding-top: 55px;
+}
+
 .section__images {
-  width: 50%;
+  width: 55%;
   background-image: url(/TripleTen/sprint3/web_project_library_es/images/cafe.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  padding-right: 80px;
 }
 
-.photograpy {
+.photograph {
   width: 250px;
   height: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
+  position: relative;
 }
 
 .name {
   margin: 0;
   padding-bottom: 10px;
+  font-size: small;
+  font-weight: 100;
 }
 
-.photograpy_tarter {
-  top: 140px;
-  right: 400px;
+.photograph_tarter {
+  top: 115px;
+  left: 70px;
 
 }
 
-.photograpy_feynman {
-  top: 30px;
-  right: 230px;
+.photograph_feynman {
+  bottom: 250px;
+  left: 230px;
 }
 
-.photograpy_burbidge {
-  top: 155px;
-  right: 45px;
+.photograph_burbidge {
+  bottom: 390px;
+  left: 430px;
+}
+
+.photograph_mitchell {
+   bottom: 360px;
+   left: 50px;
+}
+
+.photograph_cannon {
+   bottom: 560px;
+   left: 335px;
 }
