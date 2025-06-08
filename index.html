@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+   <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content="Porfolio de Sebastian C. en TripleTen" />
@@ -10,182 +10,340 @@
       <link rel="shortcut icon" href="favicon.ico" />
       <link rel="stylesheet" href="./vendor/normalize.css" />
       <link rel="stylesheet" href="./styles/style.css" />
-  </head>
-  <body>
+   </head>
+
+   <body>
       <div class="page">
          <header class="header page__header">
-         <nav class="nav header__nav">
-            <div class="logo">
-               <img
-               src="./images/logo.svg"
-               alt="Logotipo de la Biblioteca Triple Peaks"
-               class="nav__logo"
-               />
-            </div>
+            <nav class="nav header__nav">
+               <div class="logo">
+                  <img
+                     src="./images/logo.svg"
+                     alt="Logotipo de la Biblioteca Triple Peaks"
+                     class="nav__logo"
+                  />
+               </div>
 
-            <ul class="nav__links">
-               <li>
-               <a class="nav__link" href="#staff">Los preferidos de nuestro staff</a>
-               </li>
+               <ul class="nav__links">
+                  <li>
+                     <a class="nav__link" href="#staff">Los preferidos de nuestro staff</a>
+                  </li>
 
-               <li>
-               <a class="nav__link">Eventos</a>
-               </li>
+                  <li>
+                     <a class="nav__link" href="#more-events">Eventos</a>
+                  </li>
 
-               <li>
-               <a class="nav__link">Conviértete en miembro</a>
-               </li>
+                  <li>
+                     <a class="nav__link">Conviértete en miembro</a>
+                  </li>
 
-               <li>
-               <a class="nav__link">Contactos</a>
-               </li>
-            </ul>
-         </nav>
+                  <li>
+                     <a class="nav__link">Contactos</a>
+                  </li>
+               </ul>
+            </nav>
 
-        <div class="content header__content">
-          <div class="header">
-            <h1 class="header__title">
-              Bienvenidos a la biblioteca Triple Peaks
-            </h1>
-            <p class="header__description">
-              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
-              y amplía tus conocimientos sobre desarrollo, o simplemente ven a
-              trabajar o estudiar con nosotros. ¡Este es un lugar genial para
-              estudiantes!
-            </p>
-          </div>
-
-          <div class="img">
-            <img
-              src="./images/inside_the_library.png"
-              alt="Ilustración 'Dentro de la biblioteca'"
-              class="header__image"
-            />
-          </div>
-        </div>
-        <footer class="footer header__footer">
-          <p class="footer__address">Triple Peaks, 200 Success Avenue</p>
-        </footer>
-
-      </header>
-
-      <main class="main page__main">
-        <section class="staff main__staff" id="staff">
-          <h2 class="staff__title">Los preferidos de nuestro staff</h2>
-            <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
-            <ul class="cards staff__cards">
-              <li class="card main__cards">
-                <div class="card__content">
-                  <h3 class="card__title">Introducción a los algoritmos</h3>
-                  <p class="card__text">
-                    El nombre de este libro se explica por sí solo; ¡es una buena
-                    Introducción adecuada a los algoritmos! Introducción a los algoritmos, o CLRS,
-                    en referencia a los apellidos de los autores, profundiza y
-                    abarca una serie de algoritmos a lo largo de varios capítulos
-                    independientes.
+            <div class="content header__content">
+               <div class="header">
+                  <h1 class="header__title">
+                     Bienvenidos a la biblioteca Triple Peaks
+                  </h1>
+                  <p class="header__description">
+                     ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
+                     y amplía tus conocimientos sobre desarrollo, o simplemente ven a
+                     trabajar o estudiar con nosotros. ¡Este es un lugar genial para
+                     estudiantes!
                   </p>
-                  <p class="card__footer">
-                    Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest,
-                    Clifford Stein
-                  </p>
-                </div>
-              </li>
+               </div>
 
-              <li class="card main__cards">
-                <div class="card__content">
-                  <h3 class="card__title">
-                    La estructura e interpretación de los programas computacionales (SICP)
-                  </h3>
-                  <p class="card__text">
-                    Este es uno de los mejores libros para aprender los conceptos básicos de
-                    la programación. Incluido por el MIT en uno de sus cursos
-                    básicos de programación, SICP es un libro de programación de carácter general
-                    que utiliza Scheme para ilustrar diversos conceptos de programación.
-                  </p>
-                  <p class="card__footer">
-                    Harold Abelson, Gerald Jay Sussman, Julie Sussman
-                  </p>
-                </div>
-              </li>
-
-              <li class="card main__cards">
-                <div class="card__content">
-                  <h3 class="card__title">
-                    El programador limpio: un código de conducta para programadores profesionales
-                  </h3>
-                  <p class="card__text">
-                    Compilado por el experimentado ingeniero de software y autor Robert C.
-                    Martin (también conocido como "Tío Bob"), este libro abarca las
-                    técnicas y herramientas de la verdadera artesanía de software. Explica
-                    cómo escribir código limpio y muestra cómo cultivar la
-                    actitud de un programador experto y profesional.
-                  </p>
-                  <p class="card__footer">Steve McConnell</p>
-                </div>
-              </li>
-
-              <li class="card main__cards">
-                <div class="card__content">
-                  <h3 class="card__title">
-                    Código completo: un manual práctico de construcción de software
-                  </h3>
-                  <p class="card__text">
-                    ¿Te gustaría saber cómo escribir un buen código al margen de la
-                    arquitectura del lenguaje de programación que hayas elegido? Después,
-                    podrías leer Code Complete: A Practical Handbook of Software
-                    Construction ("Código completo: un práctico manual sobre creación de software"). Este aborda de manera exhaustiva todo lo relacionado con
-                    la buena estructura de código.
-                  </p>
-                  <p class="card__footer">Steve McConnell</p>
-                </div>
-              </li>
-            </ul>
-        </section>
-      </main>
-      <section class="section main__section">
-        <div class="text section__text">
-            <div class="section__title">Próximos eventos:</div>
-            <h2 class="section__subtitle">En honor a Joan Feyman:</br>mujeres destacadas en la</br> historia de la astrofísica</h2>
-            <div class="fecha-lugar">
-               <div class="fecha section__fecha">
-                  <img class="icon" src="./images/icon_calendar.svg" alt="icon calendar">
-                  <h3 class="fecha__text">Lunes 12 de enero.</h3>
+               <div class="img">
+                  <img
+                  src="./images/inside_the_library.png"
+                  alt="Ilustración 'Dentro de la biblioteca'"
+                  class="header__image"/>
                </div>
             </div>
 
-            <div class="lugar section__lugar">
-               <img class="icon" src="./images/icon_pin.svg" alt="icon ubicacion">
-               <h3 class="lugar__text">Sala de conferencias de la Biblioteca Triple Peaks</h3>
+            <footer class="header__footer">
+               <p class="footer__address">Triple Peaks, 200 Success Avenue</p>
+            </footer>
+
+         </header>
+
+         <main class="main page__main">
+            <section class="staff main__staff" id="staff">
+               <h2 class="staff__title">Los preferidos de nuestro staff</h2>
+               <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+               <ul class="cards staff__cards">
+                  <li class="card main__cards">
+                     <div class="card__content">
+                        <h3 class="card__title">Introducción a los algoritmos</h3>
+                        <p class="card__text">
+                           El nombre de este libro se explica por sí solo; ¡es una buena
+                           Introducción adecuada a los algoritmos! Introducción a los algoritmos, o CLRS,
+                           en referencia a los apellidos de los autores, profundiza y
+                           abarca una serie de algoritmos a lo largo de varios capítulos
+                           independientes.
+                        </p>
+                        <p class="card__footer">
+                           Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest,
+                           Clifford Stein
+                        </p>
+                     </div>
+                  </li>
+
+                  <li class="card main__cards">
+                     <div class="card__content">
+                        <h3 class="card__title">
+                           La estructura e interpretación de los programas computacionales (SICP)
+                        </h3>
+                        <p class="card__text">
+                           Este es uno de los mejores libros para aprender los conceptos básicos de
+                           la programación. Incluido por el MIT en uno de sus cursos
+                           básicos de programación, SICP es un libro de programación de carácter general
+                           que utiliza Scheme para ilustrar diversos conceptos de programación.
+                        </p>
+                        <p class="card__footer">
+                           Harold Abelson, Gerald Jay Sussman, Julie Sussman
+                        </p>
+                     </div>
+                  </li>
+
+                  <li class="card main__cards">
+                     <div class="card__content">
+                        <h3 class="card__title">
+                           El programador limpio: un código de conducta para programadores profesionales
+                        </h3>
+                        <p class="card__text">
+                           Compilado por el experimentado ingeniero de software y autor Robert C.
+                           Martin (también conocido como "Tío Bob"), este libro abarca las
+                           técnicas y herramientas de la verdadera artesanía de software. Explica
+                           cómo escribir código limpio y muestra cómo cultivar la
+                           actitud de un programador experto y profesional.
+                        </p>
+                        <p class="card__footer">
+                           Steve McConnell
+                        </p>
+                     </div>
+                  </li>
+
+                  <li class="card main__cards">
+                     <div class="card__content">
+                        <h3 class="card__title">
+                           Código completo: un manual práctico de construcción de software
+                        </h3>
+                        <p class="card__text">
+                           ¿Te gustaría saber cómo escribir un buen código al margen de la
+                           arquitectura del lenguaje de programación que hayas elegido? Después,
+                           podrías leer Code Complete: A Practical Handbook of Software
+                           Construction ("Código completo: un práctico manual sobre creación de software"). Este aborda de manera exhaustiva todo lo relacionado con
+                           la buena estructura de código.
+                        </p>
+                        <p class="card__footer">
+                           Steve McConnell
+                        </p>
+                     </div>
+                  </li>
+               </ul>
+            </section>
+         </main>
+
+         <article class="article page__article">
+            <div class="text article__text">
+               <div class="article__title">
+                  Próximos eventos:
+               </div>
+               <h2 class="article__subtitle">En honor a Joan Feyman:</br>mujeres destacadas en la</br> historia de la astrofísica</h2>
+               <div class="fecha-lugar">
+                  <div class="fecha article__fecha">
+                     <img class="icon" src="./images/icon_calendar.svg" alt="icon calendar">
+                     <h3 class="fecha__text">Lunes 12 de enero.</h3>
+                  </div>
+               </div>
+
+                  <div class="lugar article__lugar">
+                     <img class="icon" src="./images/icon_pin.svg" alt="icon ubicacion">
+                     <h3 class="lugar__text">Sala de conferencias de la Biblioteca Triple Peaks</h3>
+                  </div>
+
+                  <p class="parrafo article__parrafo">
+                     En este evento, en el que celebramos el nombre de nuestra biblioteca, nuestra conferencista
+                     invitada nos llevará a través de un viaje para conocer a algunas de las mujeres investigadoras
+                     más importantes en el mundo de la ciencia espacial. Es fácil caer en la falsa idea de que este
+                     campo está principalmente dominado por hombres, pero nuestra conferencia busca cambiar esa noción
+                     y probar que no ha sido así desde, al menos, el siglo XVII.
+                  </p>
+                  <a class="more-events article__more-events" id="more-events">Mas Eventos →</a>
             </div>
 
-            <p class="parrafo section__parrafo">En este evento, en el que celebramos el nombre de nuestra biblioteca, nuestra conferencista invitada nos llevará a través de un viaje para conocer a algunas de las mujeres investigadoras más importantes en el mundo de la ciencia espacial. Es fácil caer en la falsa idea de que este campo está principalmente dominado por hombres, pero nuestra conferencia busca cambiar esa noción y probar que no ha sido así desde, al menos, el siglo XVII.</p>
+            <div class="images article__images">
+               <div class="photograph photograph_tarter">
+                  <h4 class="name">
+                     Jil Tarter
+                  </h4>
+                  <img
+                     src="./images/person_tarter.png"
+                     alt="Foto Jil Tarter"
+                     width="90px"
+                     height="90px"
+                  />
+               </div>
+               <div class="photograph photograph_feynman">
+                  <h4 class="name">
+                     Joan Feynman
+                  </h4>
+                  <img
+                     src="./images/person_feynman.png"
+                     alt="Foto Joan Feyman"
+                     width="130px"
+                     height="130px"
+                  />
+               </div>
+               <div class="photograph photograph_burbidge">
+                  <h4 class="name">
+                     Margaret Burbidge
+                  </h4>
+                  <img src="./images/person_burbidge.png"
+                     alt="Foto Margaret burbidge"
+                     width="100px"
+                     height="100px"
+                  />
+               </div>
+               <div class="photograph photograph_mitchell">
+                  <img src="./images/person_mitchell.png"
+                     alt="Foto Maria Mitchell"
+                     width="70px"
+                     height="70px"
+                  />
+                  <h4 class="name">
+                     Maria Mitchell
+                  </h4>
+               </div>
+               <div class="photograph photograph_cannon">
+                  <img src="./images/person_cannon.png"
+                     alt="Foto Jump Cannon"
+                     width="100px"
+                     height="100px"
+                  />
+                  <h4 class="name">
+                     Annie Jump Cannon
+                  </h4>
+               </div>
+            </div>
+         </article>
 
-            <a class="more-events section__more-events">Mas Eventos →</a>
+         <div class="membership page__membership">
+            <h2 class="membership__title">
+               ¡Convertirse en miembro de la biblioteca es muy facil!
+            </h2>
+            <section class="membership__steps">
+               <div class="step">
+                  <div class="step__number">
+                     <h4>
+                        Paso 1
+                     </h4>
+                     <img
+                        src="./images/icon_step_forward.svg"
+                        alt="flecha hacia la derercha"
+                        class="icon-steps"
+                     />
+                  </div class="number step__number">
+                  <p class="step__description">
+                     Completa el formulario de afiliación en linea.
+                  </p>
+               </div>
+               <div class="step">
+                  <div class="step__number">
+                     <h4>
+                        Paso 2
+                     </h4>
+                     <img
+                        src="./images/icon_step_forward.svg"
+                        alt="flecha hacia la derercha"
+                        class="icon-steps"
+                     />
+                  </div>
+
+                  <p class="step__description">
+                     Ven y recoge tu credencial de la biblioteca en la recepción.
+                  </p>
+               </div>
+               <div class="step">
+                  <div class="step__number">
+                     <h4>
+                        Paso 3
+                     </h4>
+                     <img
+                        src="./images/icon_step_forward.svg"
+                        alt="flecha hacia la derercha"
+                        class="icon-steps"
+                     />
+                  </div>
+                  <p class="step__description">
+                     Firma el emvés de la targeta.
+                  </p>
+               </div>
+               <div class="step">
+                  <div class="step__number">
+                     <h4>
+                        Paso 4.
+                     </h4>
+                     <img
+                        src="./images/icon_step_finish.svg"
+                        alt="flecha hacia la derercha"
+                        class="icon-steps"
+                     />
+                  </div>
+                  <p class="step__description">
+                     ¡Disfruta de los increibles benedicios!
+                  </p>
+               </div>
+            </section>
          </div>
+         <footer class="footer">
+            <div class="footer__columns">
+               <img
+                  src="./images/logo_white.svg"
+                  alt="icono-tripleten"
+               />
+               <div class="footer__columns_conten_hours">
+                  <div>
+                     Horas
+                  </div>
+                  <p>
+                     Lunes a viernes: 9 a.m.- 8 p.m.
+                  </p>
+                  <p>
+                     Sabados y domingos: 10 a.m - 6 p.m.
+                  </p>
+               </div>
 
-        <div class="images section__images">
-            <div class="photograph photograph_tarter">
-               <h4 class="name">Jil Tarter</h4>
-               <img src="./images/person_tarter.png" alt="Foto Jil Tarter" width="90px" height="90px">
+               <div class="footer__columns_conten_social">
+                  <div >
+                     Redes sociales
+                  </div class="faceboock">
+                  <div>
+                     <img
+                        src="./images/facebook_white.svg"
+                        alt="icono-facebook"
+                     />
+                     <h5>
+                        facebook
+                     </h5>
+                  </div>
+                  <div>
+                      <img
+                        src="./images/instagram_white.svg"
+                        alt="icono-instagram"
+                     />
+                     <h5>
+                        Instagram
+                     </h5>
+                  </div>
+                  <h6>2025 Sebastian C.</h6>
+               </div>
             </div>
-            <div class="photograph photograph_feynman">
-               <h4 class="name">Joan Feynman</h4>
-               <img src="./images/person_feynman.png" alt="Foto Joan Feyman" width="130px" height="130px">
-            </div>
-            <div class="photograph photograph_burbidge">
-               <h4 class="name">Margaret Burbidge</h4>
-               <img src="./images/person_burbidge.png" alt="Foto Margaret burbidge" width="100px" height="100px">
-            </div>
-            <div class="photograph photograph_mitchell">
-               <img src="./images/person_mitchell.png" alt="Foto Maria Mitchell" width="70px" height="70px">
-               <h4 class="name">Maria Mitchell</h4>
-            </div>
-            <div class="photograph photograph_cannon">
-               <img src="./images/person_cannon.png" alt="Foto Jump Cannon" width="100px" height="100px">
-               <h4 class="name">Annie Jump Cannon</h4>
-            </div>
-         </div>
-      </section>
-    </div>
-  </body>
+         </footer>
+      </div>
+   </body>
 </html>
