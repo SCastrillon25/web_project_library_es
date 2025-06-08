@@ -1,22 +1,21 @@
 .page {
-   border: 0;
-   margin: 0;
    max-width: 1600px;
    min-width: 1100px;
    font-family: Arial, sans-serif;
    font-size: 16px;
    line-height: 20px;
    display: flex;
-   justify-content: center;
-   align-items: center;
    flex-direction: column;
+   justify-content: center;
+   align-self: center;
    color: #000000;
-
 }
 
 .header {
+
    display: flex;
    flex-direction: column;
+   justify-content: center;
    height: auto;
    padding: 30px 80px 40px;
    position: relative;
@@ -24,9 +23,9 @@
 }
 
 .page__header {
-  margin: 0;
   background-color: #ffffff;
-
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav {
@@ -61,15 +60,15 @@
 
 
 .header__content {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  height: auto;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   height: auto;
 }
 
 .header__title {
    margin: 0;
-   max-width: 635px;
+   width: auto;
    padding-top: 128px;
    padding-bottom: 32px;
    font-size: 62px;
@@ -80,21 +79,21 @@
 .header__description {
    margin: 0;
    max-width: 515px;
-   padding-top: 32px;
    font-size: 20px;
    line-height: 30px;
 }
 
 .header__image {
-  max-width: 636px;
+  width: 636px;
   display: flex;
-  justify-content: center;
+
   position:relative;
 }
 
 .header__footer {
   margin-top: auto;
   width: 100%;
+  padding-top: 40px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -108,21 +107,18 @@
 }
 
 .page__main {
-   position: 0;
    margin: 0;
    width: 100vw;
-   max-width: 1600px;
-   min-width: 1100px;
    height: 1250px;
    background-color: #ffffff;
    background-image: url(/TripleTen/sprint3/web_project_library_es/images/staff_picks_background.jpg);
    background-size: contain;
    background-repeat: no-repeat;
    background-position: center;
+   align-self: center;
 }
 
 .staff {
-   position: 0;
    margin: 0;
    display: flex;
 }
@@ -211,11 +207,14 @@
    width: 1400px;
    height: 600px;
    display: flex;
+   align-self: center;
 }
 
 .page__article {
    background-color: #f2f2f2;
    display: flex;
+   justify-content: center;
+   align-content: center;
    padding-top: 100px;
 }
 
@@ -337,6 +336,7 @@
    width: 1400px;
    height: 100vh;
    display: flex;
+   align-self: center;
 
 }
 
@@ -389,6 +389,7 @@
    height: auto;
    background-color: #1f1f1f;
    color: #ffffff;
+   align-self: center;
 }
 
 .footer__columns{
@@ -409,8 +410,7 @@
    margin: 0;
    font-size: small;
    font-weight: lighter;
-   padding-bottom:16px ;
-   text-align:baseline;
+   padding-bottom:16px;
 }
 
 .columns_conten_hours__item_without-padding {
@@ -427,7 +427,7 @@
 }
 
 .columns_conten_social__network{
-   
+
    display: flex;
    flex-direction: row;
 }
