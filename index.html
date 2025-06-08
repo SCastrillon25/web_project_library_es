@@ -30,15 +30,15 @@
                   </li>
 
                   <li>
-                     <a class="nav__link" href="#more-events">Eventos</a>
+                     <a class="nav__link" href="#eventos">Eventos</a>
                   </li>
 
                   <li>
-                     <a class="nav__link">Conviértete en miembro</a>
+                     <a class="nav__link" href="#membership">Conviértete en miembro</a>
                   </li>
 
                   <li>
-                     <a class="nav__link">Contactos</a>
+                     <a class="nav__link" href="#contact">Contactos</a>
                   </li>
                </ul>
             </nav>
@@ -148,7 +148,7 @@
             </section>
          </main>
 
-         <article class="article page__article">
+         <article class="article page__article" id="eventos">
             <div class="text article__text">
                <div class="article__title">
                   Próximos eventos:
@@ -173,7 +173,7 @@
                      campo está principalmente dominado por hombres, pero nuestra conferencia busca cambiar esa noción
                      y probar que no ha sido así desde, al menos, el siglo XVII.
                   </p>
-                  <a class="more-events article__more-events" id="more-events">Mas Eventos →</a>
+                  <a class="more-events article__more-events">Mas Eventos →</a>
             </div>
 
             <div class="images article__images">
@@ -232,7 +232,7 @@
             </div>
          </article>
 
-         <div class="membership page__membership">
+         <div class="membership page__membership" id="membership">
             <h2 class="membership__title">
                ¡Convertirse en miembro de la biblioteca es muy facil!
             </h2>
@@ -300,49 +300,52 @@
                </div>
             </section>
          </div>
-         <footer class="footer">
+         <footer class="footer" id="contact">
             <div class="footer__columns">
                <img
                   src="./images/logo_white.svg"
                   alt="icono-tripleten"
+                  class="footer__icon-tripleten"
                />
                <div class="footer__columns_conten_hours">
-                  <div>
+                  <div class="columns_conten_hours__title">
                      Horas
                   </div>
-                  <p>
+                  <p class="columns_conten_hours__item">
                      Lunes a viernes: 9 a.m.- 8 p.m.
                   </p>
-                  <p>
+                  <p class="columns_conten_hours__item columns_conten_hours__item_without-padding ">
                      Sabados y domingos: 10 a.m - 6 p.m.
                   </p>
                </div>
 
                <div class="footer__columns_conten_social">
-                  <div >
+                  <div class="columns_conten_social__title">
                      Redes sociales
-                  </div class="faceboock">
-                  <div>
+                  </div>
+                  <div class="columns_conten_social__network columns_conten_social__network_faceboock">
                      <img
                         src="./images/facebook_white.svg"
-                        alt="icono-facebook"
+                        alt="facebook-icon"
+                        class="network__icon"
                      />
-                     <h5>
+                     <h5 class="social-network">
                         facebook
                      </h5>
                   </div>
-                  <div>
+                  <div class="columns_conten_social__network">
                       <img
                         src="./images/instagram_white.svg"
-                        alt="icono-instagram"
+                        alt="Instagram-icon"
+                        class="network__icon"
                      />
-                     <h5>
+                     <h5 class="social-network">
                         Instagram
                      </h5>
                   </div>
-                  <h6>2025 Sebastian C.</h6>
                </div>
             </div>
+            <h6 class="footer__copyright">2025 Sebastian C.</h6>
          </footer>
       </div>
    </body>
