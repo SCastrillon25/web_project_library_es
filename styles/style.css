@@ -67,7 +67,7 @@
 .header__title {
    margin: 0;
    max-width: 635px;
-   padding-top: 128px;
+   margin-top: 128px;
    font-size: 62px;
    line-height: 76px;
    font-weight: 500;
@@ -82,7 +82,7 @@
 }
 
 .header__image {
-  width: 636px;
+  max-width: 636px;
   display: flex;
 
   position:relative;
