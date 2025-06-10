@@ -124,12 +124,12 @@
    margin: 0;
    display: flex;
    background-image: url(/TripleTen/sprint3/web_project_library_es/images/staff_picks_background.jpg);
-   background-size: contain;
+   background-size: 100%;
    background-repeat: no-repeat;
    background-position: center top;
    align-self: flex-start;
    padding-bottom: 100px;
-   padding-top: 90px;
+   padding-top: 105px;
 }
 
 .main__staff {
@@ -141,9 +141,9 @@
 .staff__title {
   margin: 0;
   color: #ffffff;
-  font-size: 62px;
-  line-height: 76px;
-  margin-bottom: 68px;
+  font-size: xx-large;
+  line-height: 30px;
+  margin-bottom: 45px;
   font-weight: 500;
 }
 
@@ -151,8 +151,9 @@
   color: #ffffff;
   margin: 0;
   display: inline;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: large;
+  line-height: 10px;
+  font-weight:lighter;
 }
 
 .staff__cards {
@@ -166,8 +167,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 40px;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding-left:0;
 
 }
@@ -181,9 +182,7 @@
    box-sizing:border-box;
    height: 420px;
    width: 360px;
-   border-radius: 10px;
-   padding: 0;
-   padding-bottom: 32px;
+   padding: 30px;
 }
 
 .card__content {
@@ -194,31 +193,27 @@
 .card__title {
    margin: 0;
   display: flex;
-  padding: 32px;
   padding-bottom: 0;
-  font-size: small;
-  line-height: 30px;
+  font-size: larger;
+  line-height: 25px;
 }
 
 .card__text {
   display: flex;
-  font-size: smaller;
-  line-height: 30px;
-  margin-top: 10px;
+  font-size: small;
+  line-height: 25px;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 0;
-  padding-left: 32px;
-  padding-right: 32px;
 }
 
 .card__footer {
    margin-top: auto;
-   margin-left: 32px;
-   margin-right: 32px;
    margin-bottom: 0;
    color: #838383;
-   font-size: x-small;
-   line-height: 30px;
-   justify-content: flex-end;
+   font-size: small;
+   line-height: 20px;
 }
 
 .article {
