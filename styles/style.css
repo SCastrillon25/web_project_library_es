@@ -186,6 +186,7 @@
 .card__content {
    display: flex;
    flex-direction: column;
+   height: 358px;
 }
 
 .card__title {
