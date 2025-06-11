@@ -140,7 +140,7 @@
 .staff__title {
   margin: 0;
   color: #ffffff;
-  font-size: xx-large;
+  font-size:larger;
   line-height:normal;
   margin-bottom: 40px;
   font-weight: bolder;
@@ -186,7 +186,7 @@
 .card__content {
    display: flex;
    flex-direction: column;
-   height: 350px;
+   height: auto;
 }
 
 .card__title {
