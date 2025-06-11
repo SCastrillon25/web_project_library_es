@@ -124,12 +124,11 @@
    margin: 0;
    display: flex;
    background-image: url(/TripleTen/sprint3/web_project_library_es/images/staff_picks_background.jpg);
-   background-size:contain;
+   background-size: 1400px;
    background-repeat: no-repeat;
-   background-position: center;
-   align-self: flex-start;
-   padding-bottom: 100px;
-   padding-top: 105px;
+   background-position: right;
+   padding-bottom: 120px;
+   padding-top: 110px;
 }
 
 .main__staff {
@@ -142,9 +141,9 @@
   margin: 0;
   color: #ffffff;
   font-size: xx-large;
-  line-height: 30px;
-  margin-bottom: 45px;
-  font-weight: 500;
+  line-height:auto;
+  margin-bottom: 40px;
+  font-weight: bolder;
 }
 
 .staff__subtitle {
