@@ -97,7 +97,6 @@
 }
 
 .header__footer {
-  margin-top: auto;
   width: 100%;
   padding-top: 40px;
   display: flex;
@@ -114,21 +113,22 @@
 
 .page__main {
    margin: 0;
-   width: 100vw;
-   height: 1250px;
    background-color: #ffffff;
    align-self: center;
 }
 
 .staff {
    margin: 0;
+   position: 0;
+   width: 100vw;
+   height: 100;
    display: flex;
    background-image: url(/TripleTen/sprint3/web_project_library_es/images/staff_picks_background.jpg);
-   background-size: 1400px;
+   background-size: contain;
    background-repeat: no-repeat;
-   background-position: center;
-   padding-bottom: 120px;
-   padding-top: 110px;
+   background-position: top;
+   padding-top: 120px;
+   padding-bottom: 220px;
 }
 
 .main__staff {
@@ -140,7 +140,9 @@
 .staff__title {
   margin: 0;
   color: #ffffff;
+  line-height: normal;
   margin-bottom: 50px;
+  font-weight: bolder;
 }
 
 .staff__subtitle {
@@ -208,7 +210,7 @@
 }
 
 .article {
-   width: 1400px;
+   width: 100vw;
    height: 600px;
    display: flex;
    align-self: center;
@@ -345,6 +347,7 @@
 }
 
 .page__membership {
+   width: 100vw;
    background-color: #057bf2;
    color: #ffffff;
    flex-direction: column;
@@ -389,7 +392,7 @@
 }
 
 .footer {
-   width: 1400px;
+   width: 100vw;
    height: auto;
    background-color: #1f1f1f;
    color: #ffffff;
