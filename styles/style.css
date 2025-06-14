@@ -118,15 +118,30 @@
 }
 
 .staff {
-   margin: 0;
+   /*box-sizing: border-box;
+   padding: 100px 100px 140px 100px;
+   margin: 0 auto;
+   background-image: url('../images/staff_picks_background.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;*/
+
+
+   box-sizing: border-box;
+   margin: 0 auto;
    width: 100vw;
    display: flex;
    background-image: url(/TripleTen/sprint3/web_project_library_es/images/staff_picks_background.jpg);
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
    background-position: top;
-   padding-top: 120px;
-   padding-bottom: 220px;
+   padding-top: 100px;
+   padding-bottom: 140px;
+   padding-left: 100px;
+   padding-right: 100px;
 }
 
 .main__staff {
@@ -136,20 +151,30 @@
 }
 
 .staff__title {
+   /*font-size: 44px;
+   line-height: 52px;
+   font-weight: 400;
+   color: #fff;
+   margin: 0 0 24px;*/
+
   margin: 0;
   color: #ffffff;
-  line-height: normal;
-  margin-bottom: 50px;
-  font-weight: bolder;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 400;
+  margin-bottom: 24px;
 }
 
 .staff__subtitle {
-  color: #ffffff;
-  margin: 0;
-  display: inline;
-  font-size: large;
-  line-height: 10px;
-  font-weight:lighter;
+   /*font-size: 20px;
+   line-height: 30px;
+   color: #fff;
+   margin: 0;*/
+
+   font-size: 20px;
+   line-height: 30px;
+   color: #ffffff;
+   margin: 0;
 }
 
 .staff__cards {
@@ -173,17 +198,29 @@
 }
 
 .card {
+   /*width: 360px;
+   height: 420px;
+   background-color: #fff;
+   border-radius: 6px;
+   padding: 32px 40px 20px 32px;
+   box-sizing: border-box;*/
+
+   width: 360px;
+   height: 420px;
+   border-radius: 6px;
    display: flex;
    box-sizing:border-box;
-   height: 420px;
-   width: 360px;
-   padding: 35px;
+   padding: 30px 40px 20px 32px;
 }
 
 .card__content {
+   /* display: flex;
+   flex-direction: column;
+   height: 100%;*/
+
    display: flex;
    flex-direction: column;
-   height: auto;
+   height: 100%;
 }
 
 .card__title {
@@ -193,16 +230,24 @@
 }
 
 .card__text {
-  display: flex;
-  margin-top: 20px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
+/* font-size: 16px;
+  line-height: 24px;
+  margin: 20px 0 0;*/
+
+  font-style: 16px;
+  line-height: 24px;
+  margin: 20px 0 0;
 }
 
 .card__footer {
-   margin: 0;
-   margin-top: auto;
+   /*font-size: 14px;
+  line-height: 20px;
+  margin: auto 0 0;
+  color: #838383;*/
+
+   font-size: 14px;
+   line-height: 20px;
+   margin: auto 0 0;
    color: #838383;
 
 }
