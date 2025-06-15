@@ -54,13 +54,6 @@ content.page {
    padding-left: 0;
 }
 
-.header__link {
-   color: #000000;
-   text-decoration: none;
-   font-weight: bold;
-   font-size: small;
-}
-
 .nav__link {
    color: #000000;
    text-decoration: none;
@@ -308,7 +301,7 @@ content.page {
 
 .person_name_feynman {
   top: -30px;
-  right: 319px;
+  left: 319px;
 }
 
 .person_name_burbidge {
