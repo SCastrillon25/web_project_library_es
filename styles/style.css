@@ -54,7 +54,7 @@ content.page {
    padding-left: 0;
 }
 
-.header__link {  /*Este selector no esta en el archivo html lo puse para que pase la prueba automatizada, por que me aparecia como faltante a la hora de entregar el proyecto y al sustituir el selector .header__link por .nav__link me aparece que faltava el selector .header__link y si sustitullo la clase nav__link por .header__link me dice que falta el selector nav__link*/
+.header__link {
    color: #000000;
    text-decoration: none;
    font-weight: bold;
@@ -215,137 +215,140 @@ content.page {
 
 }
 
-.article {
+.events {
    width: 100vw;
-   height: 600px;
+   height: 100vh;
    display: flex;
-   align-self: center;
-}
-
-.page__article {
+   flex-direction: row;
+   align-self: start;
+   justify-content: space-between;
+   padding: 100px 0 120px 80px;
+   box-sizing: border-box;
    background-color: #f2f2f2;
-   display: flex;
-   justify-content: center;
-   align-content: center;
-   padding-top: 100px;
 }
 
-.article__text {
-   width: 45%;
-   padding-left: 80px;
+.events__content {
+   flex-basis: 580px;
 }
 
-.article__title {
-  font-size: large;
-  font-weight: 300;
-}
-
-.article__subtitle {
-  font-size: 42px;
-  line-height: 44px;
+.events__heading {
+  font-size: 20px;
   font-weight: 500;
-  padding-right: 100px;
-}
-
-.fecha-lugar {
-  display: flex;
-  flex-direction: column;
-}
-
-.article__fecha {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 12px;
-}
-
-.icon {
-  padding-right: 12px;
-}
-
-.fecha__text {
-  font-weight: 300;
+  line-height: 30px;
   margin: 0;
 }
 
 
-.article__lugar {
+.events__title {
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+  margin: 32px 0 0;
+}
+
+.events__info-section {
+  margin-top: 32px;
+}
+
+
+
+.event-info__item {
   display: flex;
-  flex-direction: row;
+  margin-bottom: 4px;
+  font-weight: 500;
 }
 
-.lugar__text {
-  font-weight: 300;
+.event-info__icon {
+   margin-right:12px;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 24px;
+   height: 24px;
+}
+.event-info__text {
+   font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
   margin: 0;
 }
 
-.parrafo {
-  font-size: medium;
+.events__description {
+  margin: 40px 0 60px;
 }
 
-.article__parrafo {
-  margin: 0;
-  padding-top: 16px;
-  padding-right: 10px;
-}
-
-.article__more-events {
+.events__more {
    color: #2f80ed;
-   display: block;
-   padding-top: 55px;
+   text-decoration: none;
 }
 
-.article__images {
-  width: 55%;
-  background-image: url(/TripleTen/sprint3/web_project_library_es/images/cafe.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.photograph {
-  width: 250px;
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.events__cover {
+  flex-grow: 2;
+  flex-shrink: 0;
+  flex-basis: 780px;
+  max-width: 780px;
   position: relative;
 }
 
-.name {
+.events__images {
+   max-width: 100%;
+}
+
+.person {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+}
+
+.person_name_tarter {
+   top: 80px;
+   left: 160px;
+}
+
+.person_name_feynman {
+  top: -30px;
+  right: 320px;
+}
+
+.person_name_burbidge {
+   top: 55px;
+   right: 110px;
+}
+
+.person_name_mitchell {
+   position: absolute;
+   top: 400px;
+   left: 140px;
+}
+
+.person_name_cannon {
+  top: 440px;
+   right: 205px;
+}
+
+.person__image_size_l {
+   width: 140px;
+}
+
+.person__image_size_m {
+   width: 100px;
+}
+
+.person__image_size_s {
+   width: 80px;
+   height: 80px;
+}
+
+.person__caption {
+  text-align: center;
+  font-size: 14px;
   margin: 0;
-  padding-bottom: 10px;
-  font-size: small;
-  font-weight: 100;
 }
 
-.photograph_tarter {
-  top: 115px;
-  left: 70px;
-
-}
-
-.photograph_feynman {
-  bottom: 250px;
-  left: 230px;
-}
-
-.photograph_burbidge {
-  bottom: 390px;
-  left: 430px;
-}
-
-.photograph_mitchell {
-   bottom: 360px;
-   left: 50px;
-}
-
-.photograph_cannon {
-   bottom: 560px;
-   left: 335px;
-}
 
 .membership {
-   width: 1400px;
+   width: 1440px;
    height: 100vh;
    display: flex;
    align-self: center;

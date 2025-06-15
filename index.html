@@ -135,8 +135,7 @@
                         <p class="card__text">
                            ¿Te gustaría saber cómo escribir un buen código al margen de la
                            arquitectura del lenguaje de programación que hayas elegido? Después,
-                           podrías leer Code Complete: A Practical Handbook of Software
-                           Construction ("Código completo: un práctico manual sobre creación de software"). Este aborda de manera exhaustiva todo lo relacionado con
+                           podrías leer Code Complete: un práctico manual sobre creación de software". Este aborda de manera exhaustiva todo lo relacionado con
                            la buena estructura de código.
                         </p>
                         <p class="card__footer">
@@ -148,89 +147,152 @@
             </section>
          </main>
 
-         <article class="article page__article" id="eventos">
-            <div class="text article__text">
-               <div class="article__title">
-                  Próximos eventos:
-               </div>
-               <h2 class="article__subtitle">En honor a Joan Feyman: mujeres destacadas en la historia de la astrofísica</h2>
-               <div class="fecha-lugar">
-                  <div class="fecha article__fecha">
-                     <img class="icon" src="./images/icon_calendar.svg" alt="icon calendar">
-                     <h3 class="fecha__text">Lunes 12 de enero.</h3>
-                  </div>
-               </div>
+        <!-- <section class="events">
+  <div class="events__content">
+    <h2 class="events__heading">Próximos eventos:</h2>
+    <h3 class="events__title">
+      En honor de Joan Feynman: mujeres en la astrofísica
+    </h3>
+    <div class="event-info events__info-section">
+      <div class="event-info__item">
+        <img
+          src="./images/icon_calendar.svg"
+          alt="Calendar icon"
+          class="event-info__icon"
+        />
+        <p class="event-info__text">Lunes 12 de enero</p>
+      </div>
+      <div class="event-info__item">
+        <img
+          src="./images/icon_pin.svg"
+          alt="Pin icon"
+          class="event-info__icon"
+        />
+        <p class="event-info__text">
+          Sala de conferencias y virtual de la biblioteca Triple Peaks
+        </p>
+      </div>
+    </div>
+    <p class="events__description">
+      En este evento, en el que celebramos el nombre de nuestra biblioteca, nuestra
+      invitada nos llevará a través de un viaje para conocer a algunas de las mujeres
+      investigadoras más importantes en el mundo de la ciencia espacial. Es
+      fácil caer en la falsa idea de que este campo está principalmente
+      dominado por hombres, pero nuestra conferencia busca cambiar esa noción y
+      probar que no ha sido así desde, al menos, el siglo
+      XVII.
+    </p>
+    <a href="#" class="events__more">Más eventos &rarr;</a>
+  </div>
+  Comienza a crear la composición aquí
+   </section> -->
 
-                  <div class="lugar article__lugar">
-                     <img class="icon" src="./images/icon_pin.svg" alt="icon ubicacion">
-                     <h3 class="lugar__text">Sala de conferencias de la Biblioteca Triple Peaks</h3>
+
+         <section class="events page__events" id="eventos">
+            <div class="text events__content">
+               <div class="events__heading">
+                  <h2>Próximos eventos:</h2>
+               </div>
+               <h3 class="events__title">En honor a Joan Feyman: mujeres destacadas en la historia de la astrofísica</h3>
+               <div class="event-info events__info-section">
+                  <div class="event-info__item">
+                     <img
+                        class="event-info__icon"
+                        src="./images/icon_calendar.svg"
+                        alt="icon calendar"
+                     >
+                     <p class="event-info__text">
+                        Lunes 12 de enero.
+                     </p>
                   </div>
 
-                  <p class="parrafo article__parrafo">
+                  <div class="event-info__item">
+                     <img
+                        class="event-info__icon"
+                        src="./images/icon_pin.svg"
+                        alt="icon ubicacion"
+                     >
+                     <p class="event-info__text">
+                        Sala de conferencias de la Biblioteca Triple Peaks.
+                     </p>
+                  </div>
+
+
+                  <p class="events__description">
                      En este evento, en el que celebramos el nombre de nuestra biblioteca, nuestra conferencista
                      invitada nos llevará a través de un viaje para conocer a algunas de las mujeres investigadoras
                      más importantes en el mundo de la ciencia espacial. Es fácil caer en la falsa idea de que este
                      campo está principalmente dominado por hombres, pero nuestra conferencia busca cambiar esa noción
                      y probar que no ha sido así desde, al menos, el siglo XVII.
                   </p>
-                  <a class="more-events article__more-events">Mas Eventos →</a>
+                  <a href="#" class="events__more">Mas Eventos →</a>
+               </div>
             </div>
 
-            <div class="images article__images">
-               <div class="photograph photograph_tarter">
-                  <h4 class="name">
+            <div class="events__cover">
+               <img
+                  class="events__images"
+                  src="./images/cafe.png"
+                  alt="cafe-studing"
+               >
+
+               <div class="person person_name_tarter">
+                  <h4 class="person__caption">
                      Jil Tarter
                   </h4>
                   <img
                      src="./images/person_tarter.png"
                      alt="Foto Jil Tarter"
-                     width="90"
-                     height="90"
+                     class="person__image_size_m"
                   />
                </div>
-               <div class="photograph photograph_feynman">
-                  <h4 class="name">
+
+               <div class=" person person_name_feynman">
+                  <h4 class="person__caption">
                      Joan Feynman
                   </h4>
                   <img
+                     class="person__image_size_l"
                      src="./images/person_feynman.png"
-                     alt="Foto Joan Feyman"
-                     width="130"
-                     height="130"
+                     alt="Foto Joan Feynman"
+
                   />
                </div>
-               <div class="photograph photograph_burbidge">
-                  <h4 class="name">
+
+               <div class="person person_name_burbidge">
+                  <h4 class="perso">
                      Margaret Burbidge
                   </h4>
-                  <img src="./images/person_burbidge.png"
+                  <img
+                     class="person__image_size_m"
+                     src="./images/person_burbidge.png"
                      alt="Foto Margaret burbidge"
-                     width="100"
-                     height="100"
                   />
                </div>
-               <div class="photograph photograph_mitchell">
-                  <img src="./images/person_mitchell.png"
+
+               <div class="person person_name_mitchell">
+                  <img
+                     class="person__image_size_s"
+                     src="./images/person_mitchell.png"
                      alt="Foto Maria Mitchell"
-                     width="70"
-                     height="70"
                   />
-                  <h4 class="name">
+                  <h4 class="person__caption">
                      Maria Mitchell
                   </h4>
                </div>
-               <div class="photograph photograph_cannon">
-                  <img src="./images/person_cannon.png"
+
+               <div class="person person_name_cannon">
+                  <img
+                     class="person__image_size_m"
+                     src="./images/person_cannon.png"
                      alt="Foto Jump Cannon"
-                     width="100"
-                     height="100"
                   />
                   <h4 class="name">
                      Annie Jump Cannon
                   </h4>
                </div>
             </div>
-         </article>
+         </section>
 
          <div class="membership page__membership" id="membership">
             <h2 class="membership__title">
@@ -344,7 +406,7 @@
                </div>
             </div>
             <h6 class="footer__copyright">2025 Sebastian C.</h6>
-         </footer>
+         </footer>!-->
       </div>
    </body>
 </html>
