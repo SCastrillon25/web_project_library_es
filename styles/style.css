@@ -254,6 +254,7 @@ content.page {
 
 .event-info__item {
   display: flex;
+  align-items: center;
   margin-bottom: 4px;
   font-weight: 500;
 }
@@ -289,7 +290,7 @@ content.page {
   position: relative;
 }
 
-.events__images {
+.events__image {
    max-width: 100%;
 }
 
@@ -324,6 +325,10 @@ content.page {
 .person_name_cannon {
   bottom: 18px;
    right: 216px;
+}
+
+.person__image {
+   max-width: 100%;
 }
 
 .person__image_size_l {
