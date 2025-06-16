@@ -221,7 +221,6 @@ content.page {
    display: flex;
    flex-direction: row;
    align-items: start;
-   justify-content: space-between;
    padding: 100px 0 120px 80px;
    box-sizing: border-box;
    background-color: #f2f2f2;
@@ -283,7 +282,7 @@ content.page {
 }
 
 .events__cover {
-  flex-grow: 2;
+   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 780px;
   max-width: 780px;
