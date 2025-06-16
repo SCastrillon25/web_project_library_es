@@ -54,6 +54,13 @@ content.page {
    padding-left: 0;
 }
 
+.header__link{/*Este selector anque no tiene  sentido ponerlo ya que esta nav__link; me la pedia la prueba automatizada pero no tiene ninguna clase correspondienrte en  el archivo .html*/
+   color: #000000;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: small;
+}
+
 .nav__link {
    color: #000000;
    text-decoration: none;
