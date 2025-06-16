@@ -291,7 +291,7 @@ content.page {
    max-width: 100%;
 }
 
-.person {
+.person_name {
    position: absolute;
    display: flex;
    flex-direction: column;
