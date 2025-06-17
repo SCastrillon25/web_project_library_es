@@ -127,7 +127,7 @@ content.page {
    margin: 0 auto;
    width: 100vw;
    display: flex;
-   background-image: url(/TripleTen/sprint3/web_project_library_es/images/staff_picks_background.jpg);
+   background-image: url(../images/staff_picks_background.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    background-position: top;
