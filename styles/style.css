@@ -373,11 +373,11 @@ content.page {
    width: auto;
    justify-content: center;
    align-content: center;
+   column-gap: 40px;
 }
 
 .step {
    flex-basis: 220px;
-   padding-left: 40px;
 }
 
 .step__title {
