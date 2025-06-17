@@ -415,7 +415,6 @@ content.page {
 .footer__columns {
    display: flex;
    flex-direction: row;
-   margin-bottom: 100px;
 }
 
 .footer__column{
@@ -440,7 +439,7 @@ content.page {
 .footer__list {
    padding: 0;
    margin: 0;
-   list-style: none;
+   list-style-type: none;
 }
 
 
@@ -460,12 +459,14 @@ content.page {
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
    width: 16px;
    height: 16px;
-   margin-right: 10px;
 }
 
 .item-nomargin-bottom {
@@ -474,7 +475,7 @@ content.page {
 
 .footer__copyright {
    justify-content: flex-start;
-   margin: 0;
+   margin-top: 100px;
 }
 
 
