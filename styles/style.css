@@ -457,6 +457,11 @@ content.page {
    margin-left: 80px;
 }
 
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
 .footer__social-icon {
    width: 16px;
    height: 16px;
