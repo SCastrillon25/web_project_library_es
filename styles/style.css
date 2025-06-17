@@ -428,7 +428,7 @@ content.page {
    height: 80px;
 }
 
-.footer__column_conten_hours {
+.footer__column_content_hours {
    margin-left: auto;
    align-items: start;
 }
@@ -453,7 +453,7 @@ content.page {
    margin-bottom: 16px;
 }
 
-.footer__column_conten_social {
+.footer__column_content_social {
    margin-left: 80px;
 }
 
